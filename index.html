@@ -18,27 +18,29 @@
     
     <div class="container-fluid">
 
-      <div class="row mt-2">
+      <div class="row">
         <div class="col align-self-start">
           <label for="okaCheckbox">Oka (20K)</label>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col align-self-start">
           <div class="col-md-auto">
             <input type="checkbox" id="okaCheckbox" name="okaCheckbox" value="true">
           </div>
         </div>
-
       </div>
 
-      <div class="row mt-2">
-
+      <div class="row">
         <div class="col align-self-start">
           <label for="umaSelect">Uma</label>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col align-self-start">
-          <select class="form-select" aria-label="Uma">
+          <select id="uma" class="form-select" aria-label="Uma">
             <option selected>0</option>
             <option value="10">10 | 5</option>
             <option value="15">15 | 5</option>
@@ -47,34 +49,33 @@
           </select>
         </div>
 
-        
-
       </div>
 
-      <div class="row mt-2">
-
+      <div class="row">
         <div class="col align-self-start">
           <label for="rateSelect">Rate</label>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col align-self-start">
-          <select class="form-select" aria-label="Rate">
+          <select id="rate" class="form-select" aria-label="Rate">
             <option value="0.3" selected>0.3</option>
             <option value="0.5">0.5</option>
             <option value="1">1</option>
           </select>
         </div>
-
       </div>
 
-      <div class="row mt-2">
-
+      <div class="row">
         <div class="col align-self-start">
           <label for="chipSelect">Chip</label>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col align-self-start">
-          <select class="form-select" aria-label="Chip">
+          <select id="chip" class="form-select" aria-label="Chip">
             <option value="0" selected>0</option>
             <option value="0.5">0.5</option>
             <option value="1">1</option>
@@ -82,6 +83,40 @@
             <option value="5">5</option>
           </select>
         </div>
+      </div>
+
+      <div class="row">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col align-self-start">Player</th>
+              <th scope="col align-self-start">Raw Score</th>
+              <th scope="col align-self-start">Chip</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><input type="text" value="1" size="10"></th>
+              <td><input type="number"></td>
+              <td><input type="number" min="0" step="1"></td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="text" value="2" size="10"></th>
+              <td><input type="number"></td>
+              <td><input type="number" min="0" step="1"></td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="text" value="3" size="10"></th>
+              <td><input type="number"></td>
+              <td><input type="number" min="0" step="1"></td>
+            </tr>
+            <tr>
+              <th scope="row"><input type="text" value="4" size="10"></th>
+              <td><input type="number"></td>
+              <td><input type="number" min="0" step="1"></td>
+            </tr>
+          </tbody>
+        </table>
 
       </div>
       

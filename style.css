@@ -6,11 +6,6 @@ label {
     font-weight: bold;
 }
 
-input[type=checkbox] {
-    width: 20px;
-    height: 20px;
-}
-
 input[type='number'].rawScore{
     width: 100px;
 } 
@@ -18,3 +13,11 @@ input[type='number'].rawScore{
 input[type='number'].numberChip{
     width: 40px;
 } 
+
+.form-select {
+    width: 100px;
+}
+
+#finalScore, #resetButton {
+    visibility: hidden;
+}
